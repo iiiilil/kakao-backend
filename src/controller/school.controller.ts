@@ -1,5 +1,6 @@
 import express from "express";
 import SchoolModel from "../model/school.model";
+import { School } from '../types/school'
 export type School = {
   name: string;
 };
